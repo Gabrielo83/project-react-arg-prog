@@ -1,5 +1,11 @@
+import Test from "../components/Test";
+
 const HomePg = () => {
-  return <div>PAGINA HOME</div>;
+  return (
+    <>
+      <Test />
+    </>
+  );
 };
 
 export default HomePg;
