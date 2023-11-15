@@ -1,4 +1,4 @@
-import useCounter from "../hooks/useCounter";
+import useCounter from "../../hooks/useCounter";
 
 const Counter2 = () => {
   const { counter, suma, resta, limpiar } = useCounter(0);

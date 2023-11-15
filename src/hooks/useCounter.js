@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-const useCounter = (initialValue) => {
+export const useCounter = (initialValue) => {
   const [counter, setCounter] = useState(initialValue);
 
   const suma = () => setCounter(counter + 1);
@@ -9,5 +9,3 @@ const useCounter = (initialValue) => {
 
   return { counter, suma, resta, limpiar };
 };
-
-export default useCounter;
