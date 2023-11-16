@@ -9,13 +9,14 @@
 // import { SimpleForm } from "./components/02-UseEffect/SimpleForm";
 // import { FormCustomHook } from "./components/02-UseEffect/FormCustomHook";
 // import { RickAndMorty } from "./components/03-examples/RickAndMorty";
+// import { Focus } from "./components/04-UseRef/Focus";
 
-import { Focus } from "./components/04-UseRef/Focus";
+import { TareaApp } from "./components/05-UseReducer/TareasApp";
 
 function App() {
   return (
     <>
-      <Focus />
+      <TareaApp />
     </>
   );
 }
